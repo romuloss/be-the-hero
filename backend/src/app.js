@@ -2,6 +2,8 @@
 const express = require('express');
 
 const cors = require('cors');
+
+const { errors } = require('celebrate');
 // importando as rotas
 const routes = require('./routes');
 
@@ -16,6 +18,7 @@ app.use(express.json());
 
 // Usando as Rotas essa linha deve ficar abaixo do Json
 app.use(routes);
+app.use(errors());
 
 /**
 * Rota  / Recurso
@@ -54,5 +57,5 @@ app.use(routes);
     * 
     */
 
-// inicia a aplicacao na porta 
-app.listen(3333);
+
+module.exports = app;
