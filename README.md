@@ -1,18 +1,17 @@
 # Be-The-Hero
 
-Projeto de estudo Semana OmniStack11
+## Projeto de estudo Semana OmniStack11 ##
 
-Backend
-  NodeJS 
-  Express
-  Knex
-  
-  Jest
+1. Backend
+    - NodeJS 
+    - Express
+    - Knex.js is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use. 
+    - Jest
 
-Fontend
-  ReactJS
-  React Dom
+2. Fontend
+    - ReactJS
+    - React Dom
   
-Mobile
-  React Native
-  Expo
+3. Mobile
+    - React Native 
+    - Expo
